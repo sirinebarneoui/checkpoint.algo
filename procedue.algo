@@ -1,0 +1,23 @@
+PROCEDURE dotproduct (p,s ARRAY_OF INTEGER[]) : BOOLEAN
+VAR
+ sum : INTEGER :=0;
+BEGIN
+
+FOR i FROM 1 TO p.length STEP 1  DO 
+  sum=sum+p[i]*s[i]
+
+END_FOR
+ if [sum =0] then
+ return TRUE
+ ELSE
+ return   False
+ End if
+ END
+
+
+END algorithm_name
+VAR
+    set_declarations
+BEGIN
+    set_instructions
+END
